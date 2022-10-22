@@ -1,0 +1,45 @@
+:root {
+  --spartan: "League Spartan", sans-serif;
+  --antonio: "Antonio", sans-serif;
+
+  --uranus: #1ec2a4;
+  --saturn: #cd5120;
+  --jupiter: #d83a34;
+  --mars: #d14c32;
+  --earth: #6f2ed6;
+  --venus: #eda249;
+  --mercury: #419ebb;
+
+  --white: #ededed;
+  --skinwhite: #caf0f8;
+
+  --greyish: #84a98c;
+  --dim: #aaa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  /* flex-direction: column; */
+  font-family: var(--spartan);
+  background-color: #000;
+  background-image: url("./assests/background-stars.svg");
+  background-position: fixed;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  color: var(--skinwhite);
+  font-weight: 400;
+}
